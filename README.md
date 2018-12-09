@@ -33,4 +33,3 @@ Case 1:
 4 (2,2)
 5 (3,1)
 ```
-coffee-central
