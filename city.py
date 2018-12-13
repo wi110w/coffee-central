@@ -21,7 +21,7 @@ class City:
 
         self.city_layout = [[None for x in range(length)] for y in range(width)]
         for coffeeshop in coffeeshops:
-            self.city_layout[coffeeshop.y - 1][coffeeshop.x - 1] = coffeeshop
+            self.city_layout[coffeeshop.y][coffeeshop.x] = coffeeshop
 
     def print_layout(self):
         for x in range(self.width):
