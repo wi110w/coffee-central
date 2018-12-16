@@ -17,9 +17,6 @@ class FileParser:
     # Initial integers: city size, number of coffeeshops and queries
     def get_initials(self):
         self.first_line = self.lines.pop()
-        if self.first_line == END_FILE:
-            print("Reached end file. Exiting...")
-            return 0
         self.first_line = self.first_line.split()
         if len(self.first_line) != 4:
             raise ValueError("Four integers expected, got {0}".format(len(self.first_line)))
