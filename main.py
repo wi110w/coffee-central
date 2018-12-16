@@ -2,7 +2,7 @@ from coffee_finder import CoffeeFinder
 from file_parser import FileParser
 
 
-parser = FileParser("test.txt")
+parser = FileParser("tests/test_one.txt")
 exit_code = parser.get_initials()
 if exit_code == 0:
     exit(0)
