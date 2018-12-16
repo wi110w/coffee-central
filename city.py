@@ -27,7 +27,7 @@ class City:
         for x in range(self.width):
             for y in range(self.length):
                 if self.city_layout[x][y] is not None:
-                    print("Coffee!", end=' ')
+                    print("X", end='   ')
                 else:
-                    print("None", end=' ')
+                    print("-", end='   ')
             print()
